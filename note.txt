@@ -1,0 +1,2 @@
+ip4_set_default_multicast_netif()
+设置默认组播地址
