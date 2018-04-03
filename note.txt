@@ -1,2 +1,5 @@
 ip4_set_default_multicast_netif()
 设置默认组播地址
+
+sys_check_timeouts();
+定时检查各个循环tmr
