@@ -1,0 +1,11 @@
+1、删除未受版本控制的文件，但不删除未受版本控制的目录及其内容；（# 删除 untracked files）
+git clean -f
+
+2、删除未受版本控制的文件及目录；（# 连 untracked 的目录也一起删掉）
+git clean -fd
+
+3、删除文件及目录
+git clean -xfd
+
+4、查看即将要删除的内容，参数-n
+git clean -nxfd
